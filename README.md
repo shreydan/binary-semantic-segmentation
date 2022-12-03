@@ -1,9 +1,11 @@
 # Instance Segmentation
 
 
-## Binary
+## Binary Segmentation
 
 Detecting roads in car driving clips - Reaching validation accuracy of 95%
+
+model: U-NET
 
 the steps are mentioned briefly in the notebook.
 
@@ -24,12 +26,11 @@ Detecting Roads in the dataset:
 
 ### TODO
 
-- rest (just a lil bit)
 - multiclass segmentation
 - train on other datasets such as Cityscapes
 - combining datasets
 - better resolution
-- build a simple self-driving robot to map out surroundings?? idk DM me if you have cool ideas
-- get a job at comma.ai or something
+- look at other Loss functions like dice loss
+- understand IoU
 
 ___
